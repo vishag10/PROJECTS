@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.topnav{
+    position: relative;
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.logo1{
+    
+    width: 50%;
+    height: auto;
+    padding-left: 45px;
+    
+    display: inline;
+}
+.services{
+    display: flex;
+    width: 50%;
+    height: auto;
+    justify-content: end;
+    text-align: end;
+    align-items: center;
+   
+    
+   
+    
+}
+.toplogo{
+
+}
+.verticalline{
+    border-right: 1px solid;
+    height: 12px;
+    margin: 12px;
+}
+.link1{
+    color: #111111;
+    font-size: 12px;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-weight: 550;
+    text-decoration: none;
+    
+}
+.link2{
+    color: #111111;
+    font-size: 12px;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-right: 70px;
+    text-decoration: none;
+    
+}
+.nav{
+    display: block;
+    
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    align-items : center;
+    display: flex;
+    
+}
+.logo2{
+   height: auto;
+   width: 23%;
+    align-items: center;
+    padding-left: 40px;
+    
+}
+.nike{
+    width: 80px;
+    height: 70px;
+}
+.category{
+  
+    justify-content: center;
+    
+    
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: auto;
+    
+
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+    overflow:hidden;
+
+}
+li{
+    display:inline-block;
+}
+.ser{
+    width: 40%;
+    height: auto;
+    
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    
+    
+}
+.lastlogo{
+    width: 30%;
+    height: 70px;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.a1{
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    font-size: 16px; 
+    padding-left: 15px;
+    color: #111111;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+.heart{
+    width: 30px;
+    height: 30px;
+    border-radius:30px ;
+    
+    background-image: url("./img/heartec667039be36.svg");
+    background-size: cover;
+    margin-right: 8px;
+}
+.carry{
+    width: 30px;
+    height: 30px;
+    border-radius:30px ;
+    
+    background-image: url("./img/carrybagc-7d3b3bc27f93.svg");
+    background-size: cover;
+}
+.inputsearch{
+    height: 25px;
+    border-radius: 24px;
+    background-image: url("./img/search-d38e9a62db75.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid black;
+    background-color: #f5f5f5 ;
+}
+.inp{
+    margin-right: 20px;
+}
+
+.session1{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    display: flex;
+}
+.container{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    justify-content: space-between;
+    height: auto;
+    padding-bottom: 10%;
+}
+.card{
+    margin-top: 5%;
+    width: 30%;
+    height: auto;
+    border: 1px solid rgba(31, 30, 30, 0.375);
+    padding-left: 1%;
+    border-radius: 15px;
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+
+}
+.img> img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.discount{
+    color: #108934;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+.name{
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    color: #212121;
+}
+
+.price{
+    font-size: 19px;
+    
+}
+
+.session17{
+border-top: 1px solid black;
+width: 100%;
+ background-color: white;
+ height: 400px;
+ padding-top: 4%;
+ padding-left: 5%;
+}
+.s17grid{
+ display: grid;
+ background-color: white;
+ width: 90%;
+ height: 400px;
+ grid-template-areas: "item1 item2 item3 item4 item5";
+ 
+}
+.item1{
+ grid-area: item1;
+}
+.item2{
+ grid-area: item2;
+}
+.item3{
+ grid-area: item3;
+}
+.item4{
+ grid-area: item4;
+}
+.item5{
+ grid-area: item5;
+}
+.items h4{
+ margin-left: 40px;
+ font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+ font-size: 18px;
+ font-weight: 500; 
+}
+.items li{
+ color: #12121266;
+  font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 35px;
+  cursor: pointer;
+}
+.items li:hover{
+ color: #111111;
+}
