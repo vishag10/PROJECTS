@@ -7,9 +7,13 @@ async function fetData(){
         str=``
         product.map((product)=>{
             str+=`
+                
                 <div class="card">
+                <div class="content">
                   <div class="img">
-                      <img src="${product.thumbnail}" alt="" >
+                  <a href="page2.html">
+                      <img src="${product.thumbnail}" alt="" class="img2" >
+                  </a>
                   </div>
                   <div class="title">
                      <h2 class="name">${product.title}</h2>
@@ -17,6 +21,8 @@ async function fetData(){
                      <h3 class="discount">Min.${product.discountPercentage}% Off</h3>
                   </div>
                 </div>
+                </div>
+                
             `
         })
         document.getElementById("container").innerHTML=str;
