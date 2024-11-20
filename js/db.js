@@ -11,12 +11,12 @@ async function fetData(){
                 <div class="card">
                 <div class="content">
                   <div class="img">
-                  <a href="page2.html">
+                  <a href="../pages/page2.html?id=${product.id}">
                       <img src="${product.thumbnail}" alt="" class="img2" >
                   </a>
                   </div>
                   <div class="title">
-                     <h2 class="name">${product.title}</h2>
+                     <h2 class="name">${product.title.length<15?product.title:product.title.substring(0,15)+"..."}</h2>
                      <h4 class="price">$${product.price}</h4>
                      <h3 class="discount">Min.${product.discountPercentage}% Off</h3>
                   </div>

@@ -1,6 +1,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
+    background-color: #f5f5f5;
 }
 .topnav{
     position: relative;
@@ -162,103 +163,60 @@ li{
 }
 .session1{
     width: 100%;
-    background-color: #f5f5f5;
-    height: auto;
-    position: absolute;
-    display: flex;
-}
-.img{
-    position: relative;
-    margin-top: 3%;
-    left: 12%;
-    width: 30%;
-    height: 400px;
-    background-color: blue;
-}
-.name{
-    position: relative;
-    margin-top: 3%;
-    left: 15%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.rating{
-    position: relative;
-    width: 5%;
-    height: 25px;
-    background-color: rgb(44, 195, 44);
-    border-radius: 6px;
-    right: 3%;
-    margin-top: 7%;
-    text-align: center;
-    align-items: center;
-}
-.rate{
-    position: relative;
-    right: 8%;
-    margin-top: 10%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.sideimg{
-    width: 7%;
-    height: 400px;
-    background-color: #f5f5f5;
-    position: relative;
-    left: 4%;
-    margin-top: 3%;
-}
-.sideimg > img{
-    width: 100%;
-    height: 97px;
-    object-fit: cover;
-}
-
-.session2{
-    width: 100%;
     height: auto;
     background-color: #f5f5f5;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: #f5f5f5;
     display: flex;
-    position: absolute;
 }
-.cartn{
-    width: 220px;
-    height: 50px;
-    position: relative;
-    left: 12%;
-    margin-top: 1%;
-    background-image: url("./img/bynow.png");
-    background-size: cover;
-    cursor: pointer;
+.items{
+    width: 70%;
+    height: auto;
+    background-color: brown;
 }
-.by{
-    width: 220px;
-    height: 50px;
-    position: relative;
-    margin-top: 1%;
-    left: 205px;
-    background-image: url("./img/Untitled.png");
-    background-size: cover;
-    cursor: pointer;
+.bill{
+    width: 29%;
+    height: 300px;
+    margin-left: 1%;
+    background-color: green;
 }
-.offer{
-    position: relative;
-    right: 11%;
-    margin-top: 14%;
+.carted-items{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    border-bottom: 1px solid #333333;
 }
-.offer >dd{
-    line-height: 34px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+.imgdiv{
+    width: 20%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-.offer>dt{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 38px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.mainimg{
+.imgdiv>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.sideimg > img:hover{
-    border: 2px solid blue;
+.item-deatils{
+    width: 79%;
+    margin-left: 2%;
+    height: auto;
+    background-color: darkslateblue;
+    position: relative;
 }
+.item-deatils>button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color: #FF9F00;
+    color: #ffffff;
+    border: none;
+}
+
