@@ -134,16 +134,17 @@ li{
     height: 30px;
     border-radius:30px ;
     
-    background-image: url("./img/heartec667039be36.svg");
+    background-image: url("../img/heartec667039be36.svg");
     background-size: cover;
     margin-right: 8px;
 }
 .carry{
+    position: relative;
     width: 30px;
     height: 30px;
     border-radius:30px ;
-    
-    background-image: url("./img/carrybagc-7d3b3bc27f93.svg");
+    cursor: pointer;
+    background-image: url("../img/carrybagc-7d3b3bc27f93.svg");
     background-size: cover;
 }
 .inputsearch{
@@ -275,4 +276,18 @@ width: 100%;
 	display: flex;
 	flex-direction: column;
 	transition: 0.5s;
+}
+#span{
+    text-decoration: none;
+    color: red;
+    font-size: 13px;
+    font-weight: 800;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+a{
+    text-decoration: none;
 }

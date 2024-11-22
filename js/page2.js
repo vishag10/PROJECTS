@@ -41,9 +41,22 @@ async function getProduct(){
             <div class="lastlogo">
                 <div class="inp"><input type="text" class="inputsearch" placeholder="search"></div>
                 <div class="heart"></div>
-                <div class="carry"></div>
                 
-                    
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
             </div>
         </div>
         </nav>

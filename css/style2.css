@@ -135,7 +135,7 @@ li{
     height: 30px;
     border-radius:30px ;
     
-    background-image: url("./img/heartec667039be36.svg");
+    background-image: url("../img/heartec667039be36.svg");
     background-size: cover;
     margin-right: 8px;
 }
@@ -143,8 +143,8 @@ li{
     width: 30px;
     height: 30px;
     border-radius:30px ;
-    
-    background-image: url("./img/carrybagc-7d3b3bc27f93.svg");
+    cursor: pointer;
+    background-image: url("../img/carrybagc-7d3b3bc27f93.svg");
     background-size: cover;
 }
 .inputsearch{

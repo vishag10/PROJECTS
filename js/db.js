@@ -32,3 +32,5 @@ async function fetData(){
 }
 
 fetData()
+
+document.getElementById("span").textContent=localStorage.length
